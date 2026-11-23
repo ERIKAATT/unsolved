@@ -4,6 +4,7 @@ import Menu from "../../components/Menu/Menu";
 import CaseTab from "../CaseTab/CaseTab";
 import StoryTab from "../StoryTab/StoryTab";
 import wool from "../../assets/ball-of-wool-svgrepo-com.svg";
+import StatementTab from "../StatementTab/StatementTab";
 
 export default function CaseBoard() {
     const [activeTab, setActiveTab] = useState("case");
@@ -55,6 +56,10 @@ export default function CaseBoard() {
 
             <div className="h-full p-10 z-1">
                 {activeTab === "story" && <StoryTab />}
+            </div>
+
+            <div className="h-full p-10 z-1">
+                {activeTab === "statement" && <StatementTab />}
             </div>
 
             <div className="absolute -bottom-5 right-5">

@@ -3,7 +3,7 @@ export default function Menu({ activeTab, onSelect }) {
         { label: "Case", id: "case" },
         { label: "Story", id: "story" },
         { label: "Notebook", id: 'notebook' },
-        { label: "Statements", id: "statements" },
+        { label: "Statements", id: "statement" },
         { label: "Map", id: "map" }
     ];
 
